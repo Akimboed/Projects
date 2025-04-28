@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD"
+    tools:context=".personalFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="490dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#8A8A8A"
+        android:fontFamily="@font/acme"
+        android:gravity="center_horizontal"
+        android:text="Personal Info"
+        android:textColor="#00C612"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:paddingVertical="10dp"
+            android:text="Name: Justin Williams"
+            android:textSize="24sp"
+            android:textColor="@android:color/system_accent1_100"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:layout_alignParentStart="true"
+            android:paddingVertical="10dp"
+            android:text="D.O.B: 21/5/04"
+            android:textSize="24sp"
+            android:textColor="@android:color/system_accent1_100"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:layout_alignParentStart="true"
+            android:paddingVertical="10dp"
+            android:text="Age: 19"
+            android:textSize="24sp"
+            android:textColor="@android:color/system_accent1_100"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/system_accent1_100"
+            android:paddingVertical="10dp"
+            android:text="Height: 5'11"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:textColor="@android:color/system_accent1_100"
+            android:layout_alignParentStart="true"
+            android:paddingVertical="10dp"
+            android:text="Ethnicity: Afro Caribbean"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "549857820910",
+    "project_id": "yo-do-flutter-app",
+    "storage_bucket": "yo-do-flutter-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549857820910:android:8068cdba6af1ffe27033ff",
+        "android_client_info": {
+          "package_name": "com.example.final_assingment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0OyP-VsysjSZN2i7i75yCJx9oEUZKOcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549857820910:android:eb4ed8eb465b32397033ff",
+        "android_client_info": {
+          "package_name": "com.example.final_assingment2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0OyP-VsysjSZN2i7i75yCJx9oEUZKOcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549857820910:android:2a4f5388ef7c74967033ff",
+        "android_client_info": {
+          "package_name": "com.justwill.YoDo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0OyP-VsysjSZN2i7i75yCJx9oEUZKOcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
